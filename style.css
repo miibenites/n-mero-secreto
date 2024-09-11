@@ -1,0 +1,24 @@
+.título1{
+    color: plum;
+ }
+ body{
+     background-color: pink;
+ }
+ h1{
+    color:rgba(149, 89, 206, 0.884)
+ }
+
+ .imagem2{
+padding: 0px 250px;
+width: 20%;
+vertical-align: top;
+
+}
+ 
+ .Taylor{
+    margin: 0px auto;
+    padding: 30px 50px;
+    color: crimson;
+    font-size: 15px;
+    display: inline-block;
+ }
