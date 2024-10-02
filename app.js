@@ -1,6 +1,7 @@
 alert("Boas-Vindas ao Jogo do Número Secreto");
 let numeroSecreto = 4;
 let chute;
+let tentativas =1;
 
 while( chute!= numeroSecreto){ 
     chute = prompt("Escolha um número entre 1 e 10?");
@@ -14,4 +15,5 @@ else{
         alert(`O número secreto é menor que ${chute}`)
     }
 }
+   //tentativas = tentativas + 1;
 }
