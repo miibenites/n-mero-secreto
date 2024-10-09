@@ -6,7 +6,7 @@ let tentativas =1;
 while( chute!= numeroSecreto){ 
     chute = prompt("Escolha um número entre 1 e 10?");
 if(chute== numeroSecreto){
-    console.log(`Isso aí!!! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tentativas`);
+    alert(`Isso aí!!! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} tenta`);
 }
 else{
     if(numeroSecreto> chute){
